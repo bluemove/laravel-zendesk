@@ -2,30 +2,29 @@
 
 A Laravel Zendesk library for integrating with the Zendesk API
 
-[![Author](http://img.shields.io/badge/author-@superbalist-blue.svg?style=flat-square)](https://twitter.com/superbalist)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Packagist Version](https://img.shields.io/packagist/v/superbalist/laravel-zendesk.svg?style=flat-square)](https://packagist.org/packages/superbalist/laravel-zendesk)
-[![Total Downloads](https://img.shields.io/packagist/dt/superbalist/laravel-zendesk.svg?style=flat-square)](https://packagist.org/packages/superbalist/laravel-zendesk)
+[![Packagist Version](https://img.shields.io/packagist/v/bluemove/laravel-zendesk.svg?style=flat-square)](https://packagist.org/packages/bluemove/laravel-zendesk)
+[![Total Downloads](https://img.shields.io/packagist/dt/bluemove/laravel-zendesk.svg?style=flat-square)](https://packagist.org/packages/bluemove/laravel-zendesk)
 
 This package provides a Laravel service provider and facade for the zendesk/zendesk_api_client_php package.
 
 ## Installation
 
 ```bash
-composer require superbalist/laravel-zendesk
+composer require bluemove/laravel-zendesk
 ```
 
 Register the service provider in app.php
 ```php
 'providers' => array(
-    'Superbalist\Zendesk\ZendeskServiceProvider',
+    'Bluemove\Zendesk\ZendeskServiceProvider',
 )
 ```
 
 Register the facade in app.php
 ```php
 'aliases' => array(
-    'Zendesk' => 'Superbalist\Zendesk\ZendeskFacade',
+    'Zendesk' => 'Bluemove\Zendesk\ZendeskFacade',
 )
 ```
 

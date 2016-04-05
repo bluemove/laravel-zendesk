@@ -1,5 +1,5 @@
 <?php
-namespace Superbalist\Zendesk;
+namespace Bluemove\Zendesk;
 
 use Illuminate\Support\Facades\Facade;
 

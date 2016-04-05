@@ -1,11 +1,11 @@
 {
-	"name": "superbalist/laravel-zendesk",
+	"name": "bluemove/laravel-zendesk",
 	"description": "A Laravel Zendesk library for integrating with the Zendesk API",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Superbalist.com a division of Takealot Online (Pty) Ltd",
-			"email": "info@superbalist.com"
+			"name": "Bluemove",
+			"email": "webmaster@bluemove.es"
 		}
 	],
 	"require": {
@@ -16,7 +16,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Superbalist\\Zendesk\\": "src/"
+			"Bluemove\\Zendesk\\": "src/"
 		}
 	},
 	"extra": {

@@ -1,5 +1,5 @@
 <?php
-namespace Superbalist\Zendesk;
+namespace Bluemove\Zendesk;
 
 use Illuminate\Support\ServiceProvider;
 use Zendesk\API\HttpClient as ZendeskAPI;
