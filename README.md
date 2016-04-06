@@ -64,4 +64,17 @@ $ticket = Zendesk::tickets()->create([
     ],
     'priority' => 'normal'
 ]);
+
+$newUser = Zendesk::users()->create([
+    'name'  => 'Roger Rabit',
+    'alias'  => 'Roger Rabit',
+    'email'  => 'roger@cartoons.com',
+    'external_id' => '123456'
+   
+]);
+
 ```
+
+
+
+
